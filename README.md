@@ -41,3 +41,60 @@ I followed the instructions and successfully added money to a test account — a
 📌 Summary
 
 This was my first hands‑on offensive security experience, and it helped me understand how attackers think and how vulnerabilities can be discovered using tools like DIRB.
+
+Defensive security /SOC track 
+Defensive Security & SOC Fundamentals – TryHackMe Learning Summary
+
+Over the past days, I completed the Defensive Security section on TryHackMe, focusing heavily on SOC (Security Operations Center) workflows and real‑world defensive techniques.
+This track helped me build a strong understanding of how attackers operate and how defenders detect, analyze, and stop security threats.
+
+🔍 What I Learned
+
+1. Security Operations Center (SOC) Structure
+	•	Roles inside a SOC (Tier 1, Tier 2, Tier 3 analysts, Incident Responders, Threat Hunters).
+	•	How SOC teams monitor, investigate, and escalate alerts.
+	•	Understanding SLAs, escalation paths, and incident severity levels.
+
+2. Log Analysis & Monitoring
+	•	Working with logs from:
+	•	Windows Event Viewer
+	•	Linux system logs
+	•	Firewall and IDS/IPS
+	•	Web servers (Apache, NGINX)
+	•	Identifying malicious patterns such as failed RDP attempts, privilege escalation, or suspicious processes.
+
+3. SIEM (Security Information and Event Management)
+	•	How SIEM tools ingest, normalize, and correlate logs.
+	•	Writing and understanding detection rules.
+	•	Investigating alerts using queries and timeline analysis.
+	•	Basic SIEM hands-on tasks like:
+	•	Searching for Indicators of Compromise (IOCs)
+	•	Tracking lateral movement
+	•	Investigating brute-force login attempts
+
+4. Incident Response Foundations
+	•	Understanding the IR lifecycle:
+	•	Preparation
+	•	Identification
+	•	Containment
+	•	Eradication
+	•	Recovery
+	•	Lessons Learned
+	•	How SOC teams document incidents and perform root-cause analysis.
+
+5. Threat Intelligence
+	•	Understanding IOC types (hash, domain, IP, filename, registry key).
+	•	Using OSINT tools to validate threats.
+	•	Mapping attacker behavior to MITRE ATT&CK.
+
+6. Malware Indicators & Host-based Detection
+	•	Identifying suspicious processes, persistence mechanisms, and registry modifications.
+	•	Using basic tools and commands to investigate host compromise.
+
+ Key Practical Skills Gained
+	•	Log investigation
+	•	Threat detection
+	•	SIEM search queries
+	•	Interpreting SOC alerts
+	•	Event correlation and analysis
+	•	Understanding attacker behavior and defensive response

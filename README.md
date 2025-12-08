@@ -98,3 +98,17 @@ This track helped me build a strong understanding of how attackers operate and h
 	•	Interpreting SOC alerts
 	•	Event correlation and analysis
 	•	Understanding attacker behavior and defensive response
+
+Networking Fundamentals
+
+Networking is the practice of connecting computers, devices, and systems to share data, resources, and services efficiently. It enables communication between devices locally (LAN) or globally (Internet) using protocols, IP addressing, and routing.
+
+Key concepts include:
+	•	IP Addressing: Unique identifiers for devices on a network.
+	•	Subnetting: Dividing networks into smaller segments to improve efficiency and security.
+	•	DNS (Domain Name System): Translates human-readable domain names into IP addresses.
+	•	Protocols: Rules that govern data communication (e.g., TCP/IP, HTTP, FTP).
+	•	LAN & WAN: Local Area Networks (within limited areas) and Wide Area Networks (covering large distances).
+	•	Routing & Switching: Directing data between devices and across networks.
+
+Networking forms the backbone of modern IT infrastructure, enabling applications like web browsing, email, cloud services, and secure remote communication.

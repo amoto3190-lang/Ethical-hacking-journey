@@ -112,3 +112,12 @@ Key concepts include:
 	•	Routing & Switching: Directing data between devices and across networks.
 
 Networking forms the backbone of modern IT infrastructure, enabling applications like web browsing, email, cloud services, and secure remote communication.
+
+DNS ROOM 
+TryHackMe – DNS Room Reflection
+
+Working through the DNS room on TryHackMe gave me a solid, practical understanding of how the Domain Name System works behind the scenes. I learned how DNS translates human‑readable domain names into IP addresses and explored key record types such as A records, AAAA, CNAME, MX, and others.
+
+The hands‑on tasks helped me understand how queries flow through recursive and authoritative servers, and why DNS is so crucial to everyday internet communication. I also practiced answering scenario‑based questions, which strengthened my confidence in identifying DNS record usage and resolving common issues.
+
+This room improved both my theoretical knowledge and my practical troubleshooting skills, and it built a stronger foundation for my networking and defensive security journey.

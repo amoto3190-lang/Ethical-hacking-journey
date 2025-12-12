@@ -121,3 +121,118 @@ Working through the DNS room on TryHackMe gave me a solid, practical understandi
 The hands‑on tasks helped me understand how queries flow through recursive and authoritative servers, and why DNS is so crucial to everyday internet communication. I also practiced answering scenario‑based questions, which strengthened my confidence in identifying DNS record usage and resolving common issues.
 
 This room improved both my theoretical knowledge and my practical troubleshooting skills, and it built a stronger foundation for my networking and defensive security journey.
+
+HTTP Fundamentals
+
+This repository demonstrates my understanding of HTTP concepts as learned through TryHackMe and hands-on exploration.
+
+
+
+1. What is HTTP?
+
+HTTP (HyperText Transfer Protocol) is the language browsers and web servers use to communicate.
+	•	Browser → sends requests
+	•	Server → sends responses
+
+
+
+2. URL (Uniform Resource Locator)
+
+A URL is the address of a resource on the web.
+Example:https://example.com:443/home/page.html?user=45#section2
+https://example.com:443/home/page.html?user=45#section2
+3. Ports
+
+Ports are like doors on a server.
+	•	HTTP → 80
+	•	HTTPS → 443
+
+The browser automatically selects the correct port based on the URL scheme.
+
+⸻
+
+4. HTTP Methods
+
+HTTP methods are actions the client requests from the server:3.Method
+Purpose
+GET
+Retrieve data
+POST
+Send/create data
+PUT
+Replace entire resource
+PATCH
+Update part of a resource
+DELETE
+Remove resource
+Browsers handle these automatically; tools like Postman allow manual testing.
+5. Status Codes
+
+Status codes indicate the result of a request:
+Code
+Meaning
+200
+OK
+201
+Created
+204
+No Content
+301
+Permanent redirect
+302
+Temporary redirect
+400
+Bad Request
+401
+Unauthorized
+403
+Forbidden
+404
+Not Found
+500
+Server Error
+503
+Service Unavailable
+6. Headers
+
+Headers provide metadata about the request or response.
+	•	Request headers → browser → server (e.g., User-Agent, Cookie)
+	•	Response headers → server → browser (e.g., Content-Type, Set-Cookie, Cache-Control)
+
+Headers work behind the scenes and are not visible on the page.
+
+
+7. Cookies
+
+Small pieces of data stored by the browser to:
+	•	Maintain sessions (login)
+	•	Remember preferences
+	•	Track user activity
+	Example:Set-Cookie: session_id=abc123
+	8. Cache
+
+Temporary storage of files (images, scripts, CSS) by the browser to:
+	•	Speed up page loading
+	•	Reduce server requests
+
+Cookies remember you; cache remembers files.
+
+⸻
+
+9. How It Works Together
+	1.	Browser enters URL → selects port.
+	2.	Sends request with method, headers, cookies.
+	3.	Server responds with status code, headers, body.
+	4.	Browser optionally stores cookies and caches resources.
+	5.	Page displays.
+
+⸻
+
+✅ Summary
+
+This repository shows my understanding of how browsers and servers communicate over HTTP, including:
+	•	URLs and ports
+	•	HTTP methods and status codes
+	•	Headers, cookies, and cache
+
+All concepts learned and practiced using TryHackMe exercises.
